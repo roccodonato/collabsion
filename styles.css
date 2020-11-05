@@ -15,17 +15,6 @@ body{
     text-align: center;
     border-radius: 25px;
 }
-.box h1{
-    color: #F5F5DC;
-    text-transform: uppercase;
-    font-weight: 250;
-    font-family: sans-serif;
-
-
-
-
-}
-
 .box input[type = "text"], .box input[type = password]{
     font-family: sans-serif;
     border: 0;
@@ -40,17 +29,10 @@ body{
     color: white;
     border-radius: 24px;
     transition: 0.25s;
-
-
 }
 .box input[type = "text"]:focus, .box input[type = password]:focus{
 width:  280px;
 border-color: #000000;
-
-
-
-
-
 }
 .box input[type = "submit"]{
 
@@ -70,8 +52,15 @@ border-color: #000000;
 }
 .box input[type = "submit"]:hover{
     background:#B8860B;
-    
+}
+.box h1 {
+    font-size: 25px;
+    color: #fff6cb;
+    font-family: inherit;
+    font-style: normal;
 
 }
+
+
 
 
